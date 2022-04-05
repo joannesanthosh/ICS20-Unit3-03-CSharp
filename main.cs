@@ -18,12 +18,9 @@ class Program
         Console.WriteLine("Enter the radius.");
         radiusOfTheSphere = (Convert.ToInt32(Console.ReadLine()));
         Console.WriteLine("");
-      
         volume = (double)4 /(double)3 * Math.PI * (radiusOfTheSphere * radiusOfTheSphere * radiusOfTheSphere);
-
         Console.WriteLine("");
         Console.Write("volume of the sphere = " + volume.ToString("0.00") + "cm³");
-      
 
         Console.WriteLine("\nDone.");
     }
